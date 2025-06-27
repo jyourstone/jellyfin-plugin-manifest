@@ -1,0 +1,21 @@
+[
+  {
+    "name": "SmartPlaylist",
+    "guid": "A0A2A7B2-747A-4113-8B39-757A9D267C79",
+    "overview": "Smart Playlist plugin for Jellyfin.",
+    "description": "A rebuilt and modernized plugin to create smart, rule-based playlists in Jellyfin.",
+    "category": "General",
+    "owner": "jyourstone",
+    "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
+    "versions": [
+      {
+        "version": "2.0.0.0",
+        "targetAbi": "10.10.7",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.0/Jellyfin.Plugin.SmartPlaylist_v2.0.0.zip",
+        "checksum": "A9FFA0331E888BE555103E7832709821",
+        "changelog": "",
+        "timestamp": "2025-06-27"
+      }
+    ]
+  }
+]
