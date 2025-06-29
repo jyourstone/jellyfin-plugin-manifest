@@ -13,7 +13,7 @@
         "targetAbi": "10.10.7",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.4/Jellyfin.Plugin.SmartPlaylist_v2.0.4.zip",
         "checksum": "0006E7BAAB00C15485650A0EF69DC634",
-        "changelog": "New feature: Added rule field support for Audio Language\nFix: Null reference when trying to populate playlist image cover for empty playlists",
+        "changelog": "- New feature: Added rule field support for Audio Language\n- Fix: Null reference when trying to populate playlist image cover for empty playlists",
         "timestamp": "2025-06-29"
       },
       {
