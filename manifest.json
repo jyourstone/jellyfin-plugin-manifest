@@ -13,7 +13,7 @@
         "targetAbi": "10.10.7",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.0.6/Jellyfin.Plugin.SmartPlaylist_v2.0.6.zip",
         "checksum": "ACC7FA946FDFB19FE16812D42E9CE200",
-        "changelog": "Refactor item type rule evaluation to check all rules within each rule set, improving filtering logic for pre-filtered items.",
+        "changelog": "- Enhanced performance with optimized rule processing",
         "timestamp": "2025-06-29"
       },
       {
