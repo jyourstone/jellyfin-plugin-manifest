@@ -13,7 +13,7 @@
         "targetAbi": "10.10.7",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v2.1.1/Jellyfin.Plugin.SmartPlaylist_v2.1.1.zip",
         "checksum": "092AEE72716D612EBC6F7F67E1E60456",
-        "changelog": "Fix for multiple event listeners",
+        "changelog": "Fix: Multiple playlists could get deleted after cancellation",
         "timestamp": "2025-07-02"
       },
       {
