@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.10.2.2",
+        "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.2/Jellyfin.Plugin.SmartPlaylist_v10.10.2.2.zip",
+        "checksum": "C57FFD25A3E5E46647EF2CBC366B1C2B",
+        "changelog": "- You can now search for playlists under Manage Playlists\n- Styling changes to better match Jellyfin\n- Various other tweaks and fixes",
+        "timestamp": "2025-07-10"
+      },
+      {
         "version": "10.10.2.1",
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.1/Jellyfin.Plugin.SmartPlaylist_v10.10.2.1.zip",
