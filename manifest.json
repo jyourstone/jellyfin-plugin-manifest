@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.0.2",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.2/Jellyfin.Plugin.SmartPlaylist_v10.11.0.2.zip",
+        "checksum": "BA944FBD6A3AD7A7C267FDB30B09F061",
+        "changelog": "Brought changes up to date with 10.10.x version. Go here for changelog: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases",
+        "timestamp": "2025-07-13"
+      },
+      {
         "version": "10.10.2.3",
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.2.3/Jellyfin.Plugin.SmartPlaylist_v10.10.2.3.zip",
