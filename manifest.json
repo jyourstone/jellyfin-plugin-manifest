@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.10.3.0",
+        "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.0/Jellyfin.Plugin.SmartPlaylist_v10.10.3.0.zip",
+        "checksum": "B6B7385037E94EC25112A81320861B76",
+        "changelog": "New features:\n- You can now target specific users for playback fields, such as IsPlayed.\n- Added support for relative date comparisons ('Newer Than' and 'Older Than')\n- Added 'After' and 'Before' operators for date fields (removed 'LessThan' and 'GreaterThan')\n- Added support for Release Date\n\nFixes:\n- Fixed bug for config page event listeners when using back/forward in browser.\n- Date fields now work properly",
+        "timestamp": "2025-07-15"
+      },
+      {
         "version": "10.11.0.2",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.2/Jellyfin.Plugin.SmartPlaylist_v10.11.0.2.zip",
