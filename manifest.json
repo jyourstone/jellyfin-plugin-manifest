@@ -198,6 +198,14 @@
       {
         "version": "10.10.0.0",
         "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.10.0.0/Jellyfin.Plugin.MusicTags_v10.10.0.0.zip",
+        "checksum": "DF21C502CDCCF0F285027D2F5EC5187B",
+        "changelog": "Initial release",
+        "timestamp": "2025-07-22"
+      },
+      {
+        "version": "10.10.0.0",
+        "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.10.0.0/Jellyfin.Plugin.MusicTagsv10.10.0.0.zip",
         "checksum": "3FB73D141D27020F98D397634DFF1C7E",
         "changelog": "Initial release",
