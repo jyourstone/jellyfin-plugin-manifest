@@ -196,6 +196,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-musictags-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.10.0.2",
+        "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.10.0.2/Jellyfin.Plugin.MusicTags_v10.10.0.2.zip",
+        "checksum": "0CEC645ABEA56DA1DC62A0B62BC9E5C6",
+        "changelog": "- Performance enhancements\\n- Prevent duplicate scans running\\n- Some other minor fixes",
+        "timestamp": "2025-07-23"
+      },
+      {
         "version": "10.10.0.1",
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.10.0.1/Jellyfin.Plugin.MusicTags_v10.10.0.1.zip",
