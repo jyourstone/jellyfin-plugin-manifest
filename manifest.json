@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.10.4.0",
+        "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.4.0/Jellyfin.Plugin.SmartPlaylist_v10.10.4.0.zip",
+        "checksum": "88B078C0FF7A47735BB047C78B84033E",
+        "changelog": "- You can now set your own suffix/prefix or even remove them completely\n- Playlists are now connected with ID instead of name\n\nNOTE: This change comes with a lot of backend changes. Make sure your playlists have refreshed once before changing name and/or owner to avoid duplicate Jellyfin playlists",
+        "timestamp": "2025-07-26"
+      },
+      {
         "version": "10.10.3.3",
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.3.3/Jellyfin.Plugin.SmartPlaylist_v10.10.3.3.zip",
