@@ -10,7 +10,7 @@
     "versions": [
       {
         "version": "10.11.4.1",
-        "targetAbi": "10.10.0",
+        "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.4.1/Jellyfin.Plugin.SmartPlaylist_v10.11.4.1.zip",
         "checksum": "D2BD54EF05A3B8BD66E35E2092E22463",
         "changelog": "Brought up to date with version 10.10 changes",
