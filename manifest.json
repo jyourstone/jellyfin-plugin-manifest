@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.5.2",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.5.2/Jellyfin.Plugin.SmartPlaylist_v10.11.5.2.zip",
+        "checksum": "F83FF7A4E436ABB75A1A42463F33C4DD",
+        "changelog": "- PlaylistMediaType is now set to Video when the playlist only contains video files.",
+        "timestamp": "2025-08-07"
+      },
+      {
         "version": "10.10.5.2",
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.5.2/Jellyfin.Plugin.SmartPlaylist_v10.10.5.2.zip",
