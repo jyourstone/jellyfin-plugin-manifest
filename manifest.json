@@ -13,7 +13,7 @@
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.6.1/Jellyfin.Plugin.SmartPlaylist_v10.11.6.1.zip",
         "checksum": "FEF4D6DA38F6D4F80C0BC869D1328835",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.6.1 -->\n\n## What's Changed\n### Other Changes\n* Version bump\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.11.6.0...v10.11.6.1",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.6.1 -->\n\n## What's Changed\n### New Features\n* You can now include individual episodes from series within the Collections rule field\n* Improvements to release date sorting\n### Other Changes\n* Code optimizations\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.0...v10.10.6.1",
         "timestamp": "2025-08-21"
       },
       {
