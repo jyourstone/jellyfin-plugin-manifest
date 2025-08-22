@@ -326,7 +326,7 @@
       {
         "version": "10.11.0.2",
         "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.0.2/Jellyfin.Plugin.MusicTags_v10.11.0.2.zip",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/archive/refs/tags/v10.11.0.2.zip",
         "checksum": "",
         "changelog": "Added support for Jellyfin version 10.11.0-rc5",
         "timestamp": "2025-08-22"
