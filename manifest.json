@@ -13,7 +13,7 @@
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.7.0/Jellyfin.Plugin.SmartPlaylist_v10.10.7.0.zip",
         "checksum": "0ABFD241565884038FC7A31BC9E4A531",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.7.0 -->\n\n## What's Changed\n### New Features\n* Added new Resolution rule field\n* Added new Framerate rule field\n* Added Series Name rule field\n\n\n### Bug Fixes\n* You can now enter decimal values in integer fields (for example Community Rating)\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.1...v10.10.7.0",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.7.0 -->\n\n## What's Changed\n### New Features\n* Added new Resolution rule field\n* Added new Framerate rule field\n* Added new Series Name rule field\n\n\n### Bug Fixes\n* You can now enter decimal values in integer fields (for example Community Rating)\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.6.1...v10.10.7.0",
         "timestamp": "2025-08-24"
       },
       {
