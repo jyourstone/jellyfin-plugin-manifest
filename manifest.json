@@ -11,9 +11,9 @@
       {
         "version": "10.10.10.0",
         "targetAbi": "10.10.0",
-        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0.zip",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc1/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc1.zip",
         "checksum": "c99c7fc3b09e751df4ba24b67e584aa5",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0 -->\n\n## What's Changed\n### New Features\n* Added option to update playlists automatically based on library updates.\n* You can now set individual playlist refresh schedules\n* You can now sort by play count\n\n\n### Other Changes\n* Separated 'Refresh All Playlists' logic from Jellyfin tasks.\n* Minor sorting UI changes\n* Styling adjustments\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.9.1...v10.10.10.0",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0 -->\n\n## What's Changed\n### New Features\n* Added option to update playlists automatically based on library updates.\n* You can now set individual playlist refresh schedules\n* You can now sort by play count\n\n\n### Other Changes\n* Separated 'Refresh All Playlists' logic from Jellyfin tasks.\n* Minor sorting UI changes\n* Styling adjustments\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.9.1...v10.10.10.0-rc1",
         "timestamp": "2025-09-07"
       }
     ]
