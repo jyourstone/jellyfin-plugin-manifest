@@ -11,6 +11,14 @@
       {
         "version": "10.10.10.0",
         "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc3/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc3.zip",
+        "checksum": "87A0553B1467A93AE285E02290D16933",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc3 -->\n\n## What's Changed\n### Bug Fixes\n* Some minor UI fixes and tweaks\n### Other Changes\n* Various minor fixes and tweaks.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc2...v10.10.10.0-rc3",
+        "timestamp": "2025-09-10"
+      },
+      {
+        "version": "10.10.10.0",
+        "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc2/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc2.zip",
         "checksum": "9CD0007BFADA4AD896E9B335A2F550CC",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc2 -->\n\n## What's Changed\n### New Features\n* Major improvements to the 'Manage Playlists' page (filter, bulk select, clone playlists, etc).\n### Bug Fixes\n* Fixed issue where the scheduled time for refresh would show wrong in the UI\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc1...v10.10.10.0-rc2",
