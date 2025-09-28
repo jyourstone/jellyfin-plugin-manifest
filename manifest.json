@@ -11,6 +11,14 @@
       {
         "version": "10.10.10.0",
         "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc4/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc4.zip",
+        "checksum": "1154D7E77B93A7DDB2A786305790842F",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc4 -->\n\n## What's Changed\n### New Features\n* Added hours option to the Newer Than/Older than operators and allow zero as value.\n### Other Changes\n* Removed 'Series' media type due to Jellyfin limitations\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc3...v10.10.10.0-rc4",
+        "timestamp": "2025-09-28"
+      },
+      {
+        "version": "10.10.10.0",
+        "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc3/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc3.zip",
         "checksum": "87A0553B1467A93AE285E02290D16933",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc3 -->\n\n## What's Changed\n### Bug Fixes\n* Some minor UI fixes and tweaks\n### Other Changes\n* Various minor fixes and tweaks.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc2...v10.10.10.0-rc3",
