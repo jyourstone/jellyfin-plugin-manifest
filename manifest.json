@@ -11,6 +11,14 @@
       {
         "version": "10.10.10.0",
         "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc6/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc6.zip",
+        "checksum": "36176726C1C99636803E42D6853D44CA",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc6 -->\n\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc5...v10.10.10.0-rc6",
+        "timestamp": "2025-09-30"
+      },
+      {
+        "version": "10.10.10.0",
+        "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc5/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc5.zip",
         "checksum": "F5A07058C905DF64846811A7E6E1F532",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc5 -->\n\n## What's Changed\n### Other Changes\n* Implement time buffer checks for playlist refresh scheduling\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc4...v10.10.10.0-rc5",
