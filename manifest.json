@@ -11,6 +11,14 @@
       {
         "version": "10.10.10.0",
         "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc7/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc7.zip",
+        "checksum": "4EB5EEBEF902B3CFDF388AD11D43E7E3",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc7 -->\n\n## What's Changed\n### New Features\n* Added option to ignore leading article 'The' when sorting by name\n* You can now choose to include tags from parent Series for episodes.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc6...v10.10.10.0-rc7",
+        "timestamp": "2025-10-02"
+      },
+      {
+        "version": "10.10.10.0",
+        "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.10.0-rc6/Jellyfin.Plugin.SmartPlaylist_v10.10.10.0-rc6.zip",
         "checksum": "36176726C1C99636803E42D6853D44CA",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.10.10.0-rc6 -->\n\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc5...v10.10.10.0-rc6",
