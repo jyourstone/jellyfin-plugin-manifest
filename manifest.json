@@ -12,6 +12,14 @@
         "version": "10.11.0.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.0-rc8/Jellyfin.Plugin.SmartPlaylist_v10.11.0.0-rc8.zip",
+        "checksum": "B699AEE7346C93CA89E82FF81FABDE10",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.0.0-rc8 -->\n\n## What's Changed\n### New Features\n* Added a link to the Jellyfin playlist in the properties table.\n* Use parallel scans under specific conditions, added \"Parallel Concurrency Limit\" setting.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.10.0-rc8...v10.11.0.0-rc8",
+        "timestamp": "2025-10-10"
+      },
+      {
+        "version": "10.11.0.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.0-rc8/Jellyfin.Plugin.SmartPlaylist_v10.11.0.0-rc8.zip",
         "checksum": "1EC4D20735D538B6DCA8B1D5ED3F8CD6",
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.0.0-rc8 -->\n\nAdded support for Jellyfin 10.11.0.0-rc8",
         "timestamp": "2025-10-08"
