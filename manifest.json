@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.0.1",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.1/Jellyfin.Plugin.SmartPlaylist_v10.11.0.1.zip",
+        "checksum": "B02DB72A425931F1C3E9A6F27164D8C4",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.0.1 -->\n\n## What's Changed\n### New Features\n* Added option to update playlists automatically based on library updates.\n* You can now set individual playlist refresh schedules\n* You can now sort by play count.\n* Major improvements to the 'Manage Playlists' page (filter, bulk select, clone playlists, etc).\n* Added \"hours\" option to the Newer Than/Older than operators and allow zero as value.\n* Added option to ignore leading article 'The' when sorting by name\n* You can now choose to include tags from parent Series for episodes.\n* Sorting by name now takes into account if the name begins with numbers and sorts them properly.\n* Added playlist statistics\n* Added a link to the Jellyfin playlist in the properties table.\n* Use parallel scans under specific conditions, added \"Parallel Concurrency Limit\" setting.\n* You can now sort by track number\n* Added \"Similar To\" rule field which finds items similar to a reference item based on shared metadata.\n### Bug Fixes\n* Fixed issue where the scheduled time for refresh would show wrong in the UI\n* Some minor UI fixes and tweaks\n### Other Changes\n* Separated \"Refresh All Playlists\" logic from Jellyfin tasks.\n* Minor sorting UI changes.\n* Styling adjustments\n* Various minor fixes and tweaks.\n* Removed 'Series' media type due to Jellyfin limitations\n* Implement time buffer checks for playlist refresh scheduling\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.10.9.1...v10.11.0.1",
+        "timestamp": "2025-10-20"
+      },
+      {
         "version": "10.10.9.1",
         "targetAbi": "10.10.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.10.9.1/Jellyfin.Plugin.SmartPlaylist_v10.10.9.1.zip",
