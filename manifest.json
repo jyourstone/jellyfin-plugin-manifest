@@ -292,6 +292,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-musictags-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.1.2",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.1.2/Jellyfin.Plugin.MusicTags_v10.11.1.2.zip",
+        "checksum": "1D3B193420C6E40822FE3E3A2BDFC370",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.1.2 -->\n\n## What's Changed\n### New Features\n* Added support for custom tags in wma and m4a audio files.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-musictags-plugin/compare/v10.11.1.1...v10.11.1.2",
+        "timestamp": "2025-10-26"
+      },
+      {
         "version": "10.11.1.1",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.1.1/Jellyfin.Plugin.MusicTags_v10.11.1.1.zip",
