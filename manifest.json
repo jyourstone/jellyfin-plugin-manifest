@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.0.102",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.102-rc/Jellyfin.Plugin.SmartPlaylist_v10.11.0.102-rc.zip",
+        "checksum": "E4BE0480370A183ED9CD4A1AE8F3C486",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.0.102-rc -->\n\n## What's Changed\n### New Features\n* Added conditional rule field visibility logic, only displaying the rule fields related to the chosen media type.\n* Added support for all Jellyfin people fields.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.11.0.101-rc...v10.11.0.102-rc",
+        "timestamp": "2025-11-03"
+      },
+      {
         "version": "10.11.0.101",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.101-rc/Jellyfin.Plugin.SmartPlaylist_v10.11.0.101-rc.zip",
