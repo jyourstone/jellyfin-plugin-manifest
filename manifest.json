@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.1.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.1.0/Jellyfin.Plugin.SmartPlaylist_v10.11.1.0.zip",
+        "checksum": "47084582A1768237FBCA0B9F3C76CB55",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.1.0 -->\n\n## What's Changed\n### New Features\n* You can now add multiple schedules.\n* Added rule field support for: Actors, Directors, Producers, Writers, Guest Stars\n* You can now choose which metadata properties to include when selecting the 'Similar To' rule field.\n* Added support for the following audio metadata: Bitrate, Sample Rate, Bit Depth, Codec, Channels.\n* Added conditional rule field visibility logic, only displaying the rule fields related to the chosen media type.\n* Added support for all Jellyfin people fields.\n### Bug Fixes\n* Fixed issue where equals/not equals operators were missing for some rule fields.\n* Fixed issue with the Collections rule field.\n### Other Changes\n* Simplified and optimized the AutoRefresh setting logic\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.11.0.1...v10.11.1.0",
+        "timestamp": "2025-11-06"
+      },
+      {
         "version": "10.11.0.1",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.0.1/Jellyfin.Plugin.SmartPlaylist_v10.11.0.1.zip",
