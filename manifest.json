@@ -13,7 +13,7 @@
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.9.100-rc/Jellyfin.Plugin.SmartLists_v10.11.9.100-rc.zip",
         "checksum": "1F185E3DD0036F34F29E24728102C6FD",
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.9.100-rc -->\n\n## What's Changed\n### New Features\n* Added the following new rule fields: Audio Codec, Video Codec, VideoProfile, Video Range, and Video Range Type\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.11.2.0...v10.11.9.100-rc",
+        "changelog": "## Major update with support for Collections!\n\n- Name changed from SmartPlaylist to **SmartLists**\n- The entire codebase has been **refactored**\n- Support for **Collections** has been added.\n- A **status page** has been added\n- And **many** other backend changes\n\n### Breaking changes\n\n- Migration logic from older versions has been removed, you must be running **Jellyfin 10.11.2.0** and have **refreshed all playlists** prior to updating — skipping this may result in broken playlists.\n- The legacy Jellyfin tasks have been removed. Make sure no playlists are using these, and if so, set a custom schedule for them instead.\n\nIf you find any bugs, please report them here: https://github.com/jyourstone/jellyfin-smartlists-plugin/issues",
         "timestamp": "2025-11-17"
       },
       {
