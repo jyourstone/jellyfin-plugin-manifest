@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.9.100",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.9.100-rc/Jellyfin.Plugin.SmartLists_v10.11.9.100-rc.zip",
+        "checksum": "1F185E3DD0036F34F29E24728102C6FD",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.9.100-rc -->\n\n## What's Changed\n### New Features\n* Added the following new rule fields: Audio Codec, Video Codec, VideoProfile, Video Range, and Video Range Type\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartplaylist-plugin/compare/v10.11.2.0...v10.11.9.100-rc",
+        "timestamp": "2025-11-17"
+      },
+      {
         "version": "10.11.1.101",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartplaylist-plugin/releases/download/v10.11.1.101-rc/Jellyfin.Plugin.SmartPlaylist_v10.11.1.101-rc.zip",
