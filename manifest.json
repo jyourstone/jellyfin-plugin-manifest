@@ -332,6 +332,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-musictags-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.2.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.2.0/Jellyfin.Plugin.MusicTags_v10.11.2.0.zip",
+        "checksum": "CE9C5EEA8DF10BC4CC13F298B9394B09",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.2.0 -->\n\n## What's Changed\n### New Features\n* Added more comprehensive mapping for Apple/iTunes tags\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-musictags-plugin/compare/v10.11.1.2...v10.11.2.0",
+        "timestamp": "2025-12-02"
+      },
+      {
         "version": "10.11.1.2",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.1.2/Jellyfin.Plugin.MusicTags_v10.11.1.2.zip",
