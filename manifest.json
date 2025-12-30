@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.15.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.15.0/Jellyfin.Plugin.SmartLists_v10.11.15.0.zip",
+        "checksum": "140AD8D8CD873489ECA44BC52A28FBE3",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.15.0 -->\n\n## What's Changed\n### New Features\n* Collection thumbnails are now generated automatically\n* You can now schedule list visibility (enable/disable)\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.14.0...v10.11.15.0",
+        "timestamp": "2025-12-30"
+      },
+      {
         "version": "10.11.14.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.14.0/Jellyfin.Plugin.SmartLists_v10.11.14.0.zip",
