@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.15.101",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.15.101-rc/Jellyfin.Plugin.SmartLists_v10.11.15.101-rc.zip",
+        "checksum": "77C3E3D817E6BD769590EFF0699B14AE",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.15.101-rc -->\n\n## What's Changed\n### Other Changes\n* Removed interleaved sorting and fixed some issues with rule group sorting\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.15.100-rc...v10.11.15.101-rc",
+        "timestamp": "2026-01-06"
+      },
+      {
         "version": "10.11.15.100",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.15.100-rc/Jellyfin.Plugin.SmartLists_v10.11.15.100-rc.zip",
