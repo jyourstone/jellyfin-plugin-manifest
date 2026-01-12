@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.16.100",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.100-rc/Jellyfin.Plugin.SmartLists_v10.11.16.100-rc.zip",
+        "checksum": "B4EE60602860F8B884A125B3696218E4",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.16.100-rc -->\n\n## What's Changed\n### New Features\n* Users can now create and manage their own smart lists (requires the plugins 'File Transformation' and 'Plugin Pages'). Read more in the documentation: https://jellyfin-smartlists-plugin.dinsten.se/getting-started/quick-start/\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.16.0...v10.11.16.100-rc",
+        "timestamp": "2026-01-12"
+      },
+      {
         "version": "10.11.15.101",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.15.101-rc/Jellyfin.Plugin.SmartLists_v10.11.15.101-rc.zip",
