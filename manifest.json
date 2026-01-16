@@ -372,6 +372,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-musictags-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.3.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.3.0/Jellyfin.Plugin.MusicTags_v10.11.3.0.zip",
+        "checksum": "398B4681028983CFA71E013696C51568",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.3.0 -->\n\n## What's Changed\n### Other Changes\n* PRIV frames are now extracted as well\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-musictags-plugin/compare/v10.11.2.0...v10.11.3.0",
+        "timestamp": "2026-01-16"
+      },
+      {
         "version": "10.11.2.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.2.0/Jellyfin.Plugin.MusicTags_v10.11.2.0.zip",
