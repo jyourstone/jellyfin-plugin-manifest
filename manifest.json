@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.16.104",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.104-rc/Jellyfin.Plugin.SmartLists_v10.11.16.104-rc.zip",
+        "checksum": "38CB71812ECD92EEC7791A1ABAD007AD",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.16.104-rc -->\n\n## What's Changed\n### New Features\n* Added support for sorting collections by aggregated child item values in collections/playlists\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.16.103-rc...v10.11.16.104-rc",
+        "timestamp": "2026-01-18"
+      },
+      {
         "version": "10.11.16.103",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.103-rc/Jellyfin.Plugin.SmartLists_v10.11.16.103-rc.zip",
