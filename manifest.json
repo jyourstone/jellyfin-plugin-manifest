@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.16.105",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.105-rc/Jellyfin.Plugin.SmartLists_v10.11.16.105-rc.zip",
+        "checksum": "0EE9013D71011C7B8BC0786188B1E988",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.16.105-rc -->\n\n## What's Changed\n### New Features\n* Added support for uploading images\n* Support nested collection searches with customizable search depth property\n* Added support for custom rating, subtitle languages, and last episode air date.\n### Other Changes\n* Changed file storage structure\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.16.104-rc...v10.11.16.105-rc",
+        "timestamp": "2026-01-21"
+      },
+      {
         "version": "10.11.16.104",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.104-rc/Jellyfin.Plugin.SmartLists_v10.11.16.104-rc.zip",
