@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.20.100",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.20.100-rc/Jellyfin.Plugin.SmartLists_v10.11.20.100-rc.zip",
+        "checksum": "E628E2F298B913621D0C247FA780B6B2",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.20.100-rc -->\n\n## What's Changed\n### New Features\n* Added new 'Library Name' field\n### Other Changes\n* Refactored field definitions and extraction logic\n* Refactored rule field extraction to increase performance\n* Minor UX fixes\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.20.0...v10.11.20.100-rc",
+        "timestamp": "2026-01-26"
+      },
+      {
         "version": "10.11.16.105",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.16.105-rc/Jellyfin.Plugin.SmartLists_v10.11.16.105-rc.zip",
