@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.20.101",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.20.101-rc/Jellyfin.Plugin.SmartLists_v10.11.20.101-rc.zip",
+        "checksum": "91F967B22190141A6ABF0AAD3163A4AF",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.20.101-rc -->\n\n## What's Changed\n### New Features\n* You can now bulk convert playlists/collections\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.20.100-rc...v10.11.20.101-rc",
+        "timestamp": "2026-01-27"
+      },
+      {
         "version": "10.11.20.100",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.20.100-rc/Jellyfin.Plugin.SmartLists_v10.11.20.100-rc.zip",
