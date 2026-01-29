@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.21.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.21.0/Jellyfin.Plugin.SmartLists_v10.11.21.0.zip",
+        "checksum": "BDB881719829E9E545EBE8D4C7E01646",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.21.0 -->\n\n## What's Changed\n### New Features\n* Added new 'Library Name' field\n* You can now bulk convert playlists/collections\n* Added support for automated backups in settings\n### Other Changes\n* Optimized rule field extraction logic - Major increase in performance\n* Minor UX fixes\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.20.0...v10.11.21.0",
+        "timestamp": "2026-01-29"
+      },
+      {
         "version": "10.11.20.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.20.0/Jellyfin.Plugin.SmartLists_v10.11.20.0.zip",
