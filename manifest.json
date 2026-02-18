@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.21.102",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.21.102-rc/Jellyfin.Plugin.SmartLists_v10.11.21.102-rc.zip",
+        "checksum": "C724144558C5E695F908DEEE6F782D0D",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.21.102-rc -->\n\n## What's Changed\n### New Features\n* Added Last Episode Air Date sorting option\n### Bug Fixes\n* The equal/not equal operators now work properly with list fields, such as Studios.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.21.101-rc...v10.11.21.102-rc",
+        "timestamp": "2026-02-18"
+      },
+      {
         "version": "10.11.21.101",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.21.101-rc/Jellyfin.Plugin.SmartLists_v10.11.21.101-rc.zip",
