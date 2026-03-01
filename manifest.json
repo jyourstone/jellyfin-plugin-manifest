@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.23.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.0/Jellyfin.Plugin.SmartLists_v10.11.23.0.zip",
+        "checksum": "AA00B67C0FD22F1DA7983F6C3FFA195C",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.0 -->\n\n## What's Changed\n### New Features\n* Added support for 'Music Album' media type in Collections\n* Added support for configuring Sort Title and Overview.\n* Added Letterboxd support for external lists and optimized fetching logic\n### Bug Fixes\n* Fixed an issue when using multiple external lists\n### Other Changes\n* Modified sorting precision for DateCreated\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.22.0...v10.11.23.0",
+        "timestamp": "2026-03-01"
+      },
+      {
         "version": "10.11.22.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.22.0/Jellyfin.Plugin.SmartLists_v10.11.22.0.zip",
