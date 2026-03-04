@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.23.1",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.1/Jellyfin.Plugin.SmartLists_v10.11.23.1.zip",
+        "checksum": "655CB5673A4D100AAC338007E26E3006",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.1 -->\n\n## What's Changed\n### Bug Fixes\n* Fixed an issue with ReleaseDate sorting using multiple sort orders\n* Add support for episode-level sorting in Trakt integration and update documentation\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.23.0...v10.11.23.1",
+        "timestamp": "2026-03-04"
+      },
+      {
         "version": "10.11.23.0",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.0/Jellyfin.Plugin.SmartLists_v10.11.23.0.zip",
