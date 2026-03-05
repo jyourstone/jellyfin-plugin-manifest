@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.23.2",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.2/Jellyfin.Plugin.SmartLists_v10.11.23.2.zip",
+        "checksum": "C22537ABEA9D0EDD18E224A092602AB7",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.2 -->\n\n## What's Changed\n### Bug Fixes\n* Enhanced error handling in backup restore process and increased upload size limit\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.23.1...v10.11.23.2",
+        "timestamp": "2026-03-05"
+      },
+      {
         "version": "10.11.23.1",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.1/Jellyfin.Plugin.SmartLists_v10.11.23.1.zip",
