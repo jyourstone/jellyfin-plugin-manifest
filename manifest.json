@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.23.3",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.3/Jellyfin.Plugin.SmartLists_v10.11.23.3.zip",
+        "checksum": "719EA763A77BF9A0A05F43066BD7114F",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.23.3 -->\n\n## What's Changed\n### New Features\n* Renamed sort option \"No Order\" to \"Default\". When using Default, it can change automatically depending on the rule field selected, for example External List will by default sort by the extern list order.\n### Bug Fixes\n* Playback status now works correctly with albums in collections\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.23.2...v10.11.23.3",
+        "timestamp": "2026-03-14"
+      },
+      {
         "version": "10.11.23.2",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.23.2/Jellyfin.Plugin.SmartLists_v10.11.23.2.zip",
