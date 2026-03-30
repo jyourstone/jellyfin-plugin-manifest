@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.24.100",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.24.100-rc/Jellyfin.Plugin.SmartLists_v10.11.24.100-rc.zip",
+        "checksum": "433E57E046A53265881F6CA0C395803A",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.24.100-rc -->\n\n## What's Changed\n### New Features\n* Added support for Series Season media type for collections\n* Add Round Robin sorting feature\n### Other Changes\n* Create configuration directory for logging.json\n\n## New Contributors\n* @adripo made their first contribution in https://github.com/jyourstone/jellyfin-smartlists-plugin/pull/345\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.24.0...v10.11.24.100-rc",
+        "timestamp": "2026-03-30"
+      },
+      {
         "version": "10.11.22.103",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.22.103-rc/Jellyfin.Plugin.SmartLists_v10.11.22.103-rc.zip",
