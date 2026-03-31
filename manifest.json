@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.24.101",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.24.101-rc/Jellyfin.Plugin.SmartLists_v10.11.24.101-rc.zip",
+        "checksum": "3FC7D17A295228854872EBCBA4E0A954",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.24.101-rc -->\n\n## What's Changed\n### New Features\n* Added new Series Status field\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.24.100-rc...v10.11.24.101-rc",
+        "timestamp": "2026-03-31"
+      },
+      {
         "version": "10.11.24.100",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.24.100-rc/Jellyfin.Plugin.SmartLists_v10.11.24.100-rc.zip",
