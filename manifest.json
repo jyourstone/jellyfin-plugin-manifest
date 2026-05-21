@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.27.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.27.0/Jellyfin.Plugin.SmartLists_v10.11.27.0.zip",
+        "checksum": "A76E645E0CC79C72CE606AB5FFE5CD2C",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.27.0 -->\n\n## What's Changed\n### New Features\n* You can now choose to include parent album genres for music\n### Bug Fixes\n* Fixed an issue with release date sorting\n* Added compability with Jellyfin 10.11.9\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.26.1...v10.11.27.0",
+        "timestamp": "2026-05-21"
+      },
+      {
         "version": "10.11.26.1",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.26.1/Jellyfin.Plugin.SmartLists_v10.11.26.1.zip",
