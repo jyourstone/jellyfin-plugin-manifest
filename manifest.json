@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.0",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.0-rc/Jellyfin.Plugin.SmartLists_v12.0.0.0-rc_12.0.0.zip",
+        "checksum": "58EA09199203150B12BE39E5874438B5",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v12.0.0.0-rc -->\n\n## What's Changed\n### New Features\n* Added support for Jellyfin 12.0-rc1\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.30.1...v12.0.0.0-rc",
+        "timestamp": "2026-06-23"
+      },
+      {
+        "version": "12.0.0.0",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.0-rc/Jellyfin.Plugin.SmartLists_v12.0.0.0-rc_10.11.0.zip",
+        "checksum": "AF638A4634C9FC8A4315E9844F19A7BF",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v12.0.0.0-rc -->\n\n## What's Changed\n### New Features\n* Added support for Jellyfin 12.0-rc1\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v10.11.30.1...v12.0.0.0-rc",
+        "timestamp": "2026-06-23"
+      },
+      {
         "version": "10.11.24.102",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v10.11.24.102-rc/Jellyfin.Plugin.SmartLists_v10.11.24.102-rc.zip",
