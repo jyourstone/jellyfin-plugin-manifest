@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.1",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.1-rc/Jellyfin.Plugin.SmartLists_v12.0.0.1-rc_12.0.0.zip",
+        "checksum": "FC99291B915564A7FC0BA5A1CFBA0ED4",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v12.0.0.1-rc -->\n\n## What's Changed\n### Bug Fixes\n* Improved image handling to prevent conflicts between jpg and jpeg\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v12.0.0.0-rc...v12.0.0.1-rc",
+        "timestamp": "2026-06-28"
+      },
+      {
+        "version": "12.0.0.1",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.1-rc/Jellyfin.Plugin.SmartLists_v12.0.0.1-rc_10.11.0.zip",
+        "checksum": "11AC332D1AD44CB881C8992C047AFF5C",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v12.0.0.1-rc -->\n\n## What's Changed\n### Bug Fixes\n* Improved image handling to prevent conflicts between jpg and jpeg\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v12.0.0.0-rc...v12.0.0.1-rc",
+        "timestamp": "2026-06-28"
+      },
+      {
         "version": "12.0.0.0",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.0-rc/Jellyfin.Plugin.SmartLists_v12.0.0.0-rc_12.0.0.zip",
