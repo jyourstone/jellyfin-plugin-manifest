@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.2",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.2-rc/Jellyfin.Plugin.SmartLists_v12.0.0.2-rc_12.0.0.zip",
+        "checksum": "4F5E42B249E0A8AFE8BF41C842D6F8D2",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v12.0.0.2-rc -->\n\n## What's Changed\n### New Features\n* Added a new random group selection feature\n* Added Shuffled Round Robin sorting and Bumpers\n* Added Least Recently Watched Round Robin sort\n### Other Changes\n* SmartLists no longer does unconditional metadata saves just to re-set the same collection name/display order\n* Added \"More options\" collapsable section when creating/editing lists.\n* Added search and section groups to the Sort By dropdown\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v12.0.0.1-rc...v12.0.0.2-rc",
+        "timestamp": "2026-07-11"
+      },
+      {
+        "version": "12.0.0.2",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.2-rc/Jellyfin.Plugin.SmartLists_v12.0.0.2-rc_10.11.0.zip",
+        "checksum": "C7ECCB9A6D71E4570239320D48D0E02D",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v12.0.0.2-rc -->\n\n## What's Changed\n### New Features\n* Added a new random group selection feature\n* Added Shuffled Round Robin sorting and Bumpers\n* Added Least Recently Watched Round Robin sort\n### Other Changes\n* SmartLists no longer does unconditional metadata saves just to re-set the same collection name/display order\n* Added \"More options\" collapsable section when creating/editing lists.\n* Added search and section groups to the Sort By dropdown\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-smartlists-plugin/compare/v12.0.0.1-rc...v12.0.0.2-rc",
+        "timestamp": "2026-07-11"
+      },
+      {
         "version": "12.0.0.1",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.1-rc/Jellyfin.Plugin.SmartLists_v12.0.0.1-rc_12.0.0.zip",
