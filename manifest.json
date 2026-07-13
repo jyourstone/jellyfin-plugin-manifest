@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.3",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.3-rc/Jellyfin.Plugin.SmartLists_v12.0.0.3-rc_12.0.0.zip",
+        "checksum": "5F719CC560D15AC0AAEAA909308CB45B",
+        "changelog": "Features:\n- New \"Hide when empty\" option: hides a playlist or collection while its rules match no items, and brings it back automatically once items match again\n- Round Robin sorting can now group by Collection and control the order of items within each group\n\nBug Fixes:\n- Fixed duplicate smart playlists and collections that could appear after failed deletions; leftover orphans are now detected and cleaned up automatically",
+        "timestamp": "2026-07-13"
+      },
+      {
+        "version": "12.0.0.3",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.3-rc/Jellyfin.Plugin.SmartLists_v12.0.0.3-rc_10.11.0.zip",
+        "checksum": "B8D14509E373DA5EDEA9A7DB0E59FECD",
+        "changelog": "Features:\n- New \"Hide when empty\" option: hides a playlist or collection while its rules match no items, and brings it back automatically once items match again\n- Round Robin sorting can now group by Collection and control the order of items within each group\n\nBug Fixes:\n- Fixed duplicate smart playlists and collections that could appear after failed deletions; leftover orphans are now detected and cleaned up automatically",
+        "timestamp": "2026-07-13"
+      },
+      {
         "version": "12.0.0.2",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.2-rc/Jellyfin.Plugin.SmartLists_v12.0.0.2-rc_12.0.0.zip",
