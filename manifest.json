@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.7",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.7-rc/Jellyfin.Plugin.SmartLists_v12.0.0.7-rc_12.0.0.zip",
+        "checksum": "5A6BDF397E8CBBAFBF3DCBA579E0D7AD",
+        "changelog": "Improvements:\n- Crossover episodes airing on the same day now play in the order of each show's Sort Title, so you can control the order within a crossover night by editing the Sort Title on the series\n- The weekly cleanup task now also removes leftover Jellyfin playlists and collections whose smart list configuration no longer exists",
+        "timestamp": "2026-07-17"
+      },
+      {
+        "version": "12.0.0.7",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.7-rc/Jellyfin.Plugin.SmartLists_v12.0.0.7-rc_10.11.0.zip",
+        "checksum": "B2868A762618A2336553C269D3F10782",
+        "changelog": "Improvements:\n- Crossover episodes airing on the same day now play in the order of each show's Sort Title, so you can control the order within a crossover night by editing the Sort Title on the series\n- The weekly cleanup task now also removes leftover Jellyfin playlists and collections whose smart list configuration no longer exists",
+        "timestamp": "2026-07-17"
+      },
+      {
         "version": "12.0.0.6",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.6-rc/Jellyfin.Plugin.SmartLists_v12.0.0.6-rc_12.0.0.zip",
