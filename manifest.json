@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.8",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.8-rc/Jellyfin.Plugin.SmartLists_v12.0.0.8-rc_12.0.0.zip",
+        "checksum": "8B4CDC87DAB6A230B00F96CB40B7D902",
+        "changelog": "Features:\n- New external list provider: ListenBrainz. Build smart music playlists from any public ListenBrainz playlist, or from auto-updating recommendation feeds like Weekly Jams. Tracks are matched by MusicBrainz tags, with title + artist fallback for untagged libraries. An optional user token enables private playlists.\n\nBug Fixes:\n- Fixed the \"All Users\" checkbox showing the wrong state when editing or cloning a playlist, which could silently change which users a playlist applies to on save.",
+        "timestamp": "2026-07-22"
+      },
+      {
+        "version": "12.0.0.8",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.8-rc/Jellyfin.Plugin.SmartLists_v12.0.0.8-rc_10.11.0.zip",
+        "checksum": "E309D7C207A6058AE33F4B30CE9F9302",
+        "changelog": "Features:\n- New external list provider: ListenBrainz. Build smart music playlists from any public ListenBrainz playlist, or from auto-updating recommendation feeds like Weekly Jams. Tracks are matched by MusicBrainz tags, with title + artist fallback for untagged libraries. An optional user token enables private playlists.\n\nBug Fixes:\n- Fixed the \"All Users\" checkbox showing the wrong state when editing or cloning a playlist, which could silently change which users a playlist applies to on save.",
+        "timestamp": "2026-07-22"
+      },
+      {
         "version": "12.0.0.7",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.7-rc/Jellyfin.Plugin.SmartLists_v12.0.0.7-rc_12.0.0.zip",
