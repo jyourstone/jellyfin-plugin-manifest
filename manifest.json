@@ -268,6 +268,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-musictags-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "10.11.3.3",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.3.3/Jellyfin.Plugin.MusicTags_v10.11.3.3.zip",
+        "checksum": "563A5D82C50F8EB2F6B526D0448F7F18",
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at v10.11.3.3 -->\n\n## What's Changed\n### Other Changes\n* Extracts every value from multi-value tags instead of only the first one, so delimiter splitting produces all expected Jellyfin tags.\n\n\n**Full Changelog**: https://github.com/jyourstone/jellyfin-musictags-plugin/compare/v10.11.3.2...v10.11.3.3",
+        "timestamp": "2026-07-23"
+      },
+      {
         "version": "10.11.3.2",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.3.2/Jellyfin.Plugin.MusicTags_v10.11.3.2.zip",
