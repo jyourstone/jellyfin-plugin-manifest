@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.10",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.10-rc/Jellyfin.Plugin.SmartLists_v12.0.0.10-rc_12.0.0.zip",
+        "checksum": "5516C8EE3ADC03B95C0A12B01E5C9B6E",
+        "changelog": "Features:\n- New setting to control whether newly created lists hide themselves when empty\n\nBug Fixes:\n- Fixed the configuration page loading blank when Jellyfin runs behind a reverse proxy using the recommended Nginx security headers",
+        "timestamp": "2026-07-28"
+      },
+      {
+        "version": "12.0.0.10",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.10-rc/Jellyfin.Plugin.SmartLists_v12.0.0.10-rc_10.11.0.zip",
+        "checksum": "A8FE9A9C1047E40FC6DD49DF0A945A9B",
+        "changelog": "Features:\n- New setting to control whether newly created lists hide themselves when empty\n\nBug Fixes:\n- Fixed the configuration page loading blank when Jellyfin runs behind a reverse proxy using the recommended Nginx security headers",
+        "timestamp": "2026-07-28"
+      },
+      {
         "version": "12.0.0.9",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.9-rc/Jellyfin.Plugin.SmartLists_v12.0.0.9-rc_12.0.0.zip",
