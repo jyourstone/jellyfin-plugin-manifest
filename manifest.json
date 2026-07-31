@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.11",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.11-rc/Jellyfin.Plugin.SmartLists_v12.0.0.11-rc_12.0.0.zip",
+        "checksum": "5DFC124259C3DD721D84EEFF42243575",
+        "changelog": "Bug Fixes:\n- Fixed IMDb lists, charts and awards failing to load with a \"Forbidden\" error after a change on IMDb's side",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "version": "12.0.0.11",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.11-rc/Jellyfin.Plugin.SmartLists_v12.0.0.11-rc_10.11.0.zip",
+        "checksum": "28632C462B7216FE65E160020D55BD9E",
+        "changelog": "Bug Fixes:\n- Fixed IMDb lists, charts and awards failing to load with a \"Forbidden\" error after a change on IMDb's side",
+        "timestamp": "2026-07-31"
+      },
+      {
         "version": "12.0.0.10",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.10-rc/Jellyfin.Plugin.SmartLists_v12.0.0.10-rc_12.0.0.zip",
