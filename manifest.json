@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.12",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.12-rc/Jellyfin.Plugin.SmartLists_v12.0.0.12-rc_12.0.0.zip",
+        "checksum": "9FC4FF47C8DE4FFBC112C6AD484F304C",
+        "changelog": "Bug Fixes:\n- Fixed the configuration pages loading blank when Jellyfin is served through Cloudflare with Rocket Loader enabled\n- Trakt now explains that a \"Forbidden\" error means a rejected or missing client ID, instead of showing a raw status that looked like a problem with the list's privacy setting",
+        "timestamp": "2026-08-05"
+      },
+      {
+        "version": "12.0.0.12",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.12-rc/Jellyfin.Plugin.SmartLists_v12.0.0.12-rc_10.11.0.zip",
+        "checksum": "1F28A021BCB660EA18FA06C64CF0BFE3",
+        "changelog": "Bug Fixes:\n- Fixed the configuration pages loading blank when Jellyfin is served through Cloudflare with Rocket Loader enabled\n- Trakt now explains that a \"Forbidden\" error means a rejected or missing client ID, instead of showing a raw status that looked like a problem with the list's privacy setting",
+        "timestamp": "2026-08-05"
+      },
+      {
         "version": "12.0.0.11",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.11-rc/Jellyfin.Plugin.SmartLists_v12.0.0.11-rc_12.0.0.zip",
