@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.13",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.13-rc/Jellyfin.Plugin.SmartLists_v12.0.0.13-rc_12.0.0.zip",
+        "checksum": "831A0ADFF15ED481F5F9F546555ED3F2",
+        "changelog": "Features:\n- New option for Release Date and Last Episode Air Date rules: include items whose date is missing from metadata, so brand-new episodes show up in \"newer than\" lists even before their release date arrives\n\nBug Fixes:\n- Items with an unknown release date no longer incorrectly match \"before\", \"older than\" and \"not equals\" date rules (they previously counted as released in 1970)",
+        "timestamp": "2026-08-08"
+      },
+      {
+        "version": "12.0.0.13",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.13-rc/Jellyfin.Plugin.SmartLists_v12.0.0.13-rc_10.11.0.zip",
+        "checksum": "99FF6CA69AE3653A6F60C94D0C889B41",
+        "changelog": "Features:\n- New option for Release Date and Last Episode Air Date rules: include items whose date is missing from metadata, so brand-new episodes show up in \"newer than\" lists even before their release date arrives\n\nBug Fixes:\n- Items with an unknown release date no longer incorrectly match \"before\", \"older than\" and \"not equals\" date rules (they previously counted as released in 1970)",
+        "timestamp": "2026-08-08"
+      },
+      {
         "version": "12.0.0.12",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.12-rc/Jellyfin.Plugin.SmartLists_v12.0.0.12-rc_12.0.0.zip",
