@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.14",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.14-rc/Jellyfin.Plugin.SmartLists_v12.0.0.14-rc_12.0.0.zip",
+        "checksum": "FB8886E1E88609E3AAC9B0140C2D1931",
+        "changelog": "Features:\n- New User-Agent setting for external lists: choose Default, Auto Clone, Clone, or a custom value if a list provider starts blocking requests (Settings > External Lists)\n- New default media types setting: pre-select which media types new smart lists start with (Settings > Default Settings)\n\nBug Fixes:\n- Rule groups mixing collection/playlist rules with other rules now correctly apply AND logic\n- Per-group limits no longer drop items from include-only collection/playlist rules\n- Nested collections shared by several rule groups now count toward every matching group",
+        "timestamp": "2026-08-13"
+      },
+      {
+        "version": "12.0.0.14",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.14-rc/Jellyfin.Plugin.SmartLists_v12.0.0.14-rc_10.11.0.zip",
+        "checksum": "3AC0942BDB284E87C3906E213CF0E397",
+        "changelog": "Features:\n- New User-Agent setting for external lists: choose Default, Auto Clone, Clone, or a custom value if a list provider starts blocking requests (Settings > External Lists)\n- New default media types setting: pre-select which media types new smart lists start with (Settings > Default Settings)\n\nBug Fixes:\n- Rule groups mixing collection/playlist rules with other rules now correctly apply AND logic\n- Per-group limits no longer drop items from include-only collection/playlist rules\n- Nested collections shared by several rule groups now count toward every matching group",
+        "timestamp": "2026-08-13"
+      },
+      {
         "version": "12.0.0.13",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.13-rc/Jellyfin.Plugin.SmartLists_v12.0.0.13-rc_12.0.0.zip",
