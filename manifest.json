@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.15",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.15-rc/Jellyfin.Plugin.SmartLists_v12.0.0.15-rc_12.0.0.zip",
+        "checksum": "76B682D1409D511458337F55686292E0",
+        "changelog": "Features:\n- New external list provider: Scrob\n- New integration API so other tools can create and manage smart lists\n\nBug Fixes:\n- Titles containing numbers now sort in the expected order - \"Season 2\" before \"Season 10\" instead of after it. Affects music tracks and episodes sorted by Name, and round robin group order. Works with non-Latin digits too.\n- The Resolution sort option did nothing and quietly left lists sorted by name\n- Some sorts produced a different order depending on how many sort options you had configured\n- Episodes came back unordered when Season/Episode was combined with another sort\n- Lists sorted by Play Count ordered equally-played items inconsistently\n- A series showed a play count of 0 even when all of its episodes were watched\n- \"Last Played is <date>\" matched nothing unless playback happened exactly at midnight UTC\n- A complex regex rule could tie up a CPU core for an entire refresh\n- Saving the User-Agent setting could overwrite another setting saved at the same moment\n- External lists from Scrob with no items are now handled cleanly",
+        "timestamp": "2026-08-14"
+      },
+      {
+        "version": "12.0.0.15",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.15-rc/Jellyfin.Plugin.SmartLists_v12.0.0.15-rc_10.11.0.zip",
+        "checksum": "171C4A3A3BB7C35CFA2B0541DC35A0B9",
+        "changelog": "Features:\n- New external list provider: Scrob\n- New integration API so other tools can create and manage smart lists\n\nBug Fixes:\n- Titles containing numbers now sort in the expected order - \"Season 2\" before \"Season 10\" instead of after it. Affects music tracks and episodes sorted by Name, and round robin group order. Works with non-Latin digits too.\n- The Resolution sort option did nothing and quietly left lists sorted by name\n- Some sorts produced a different order depending on how many sort options you had configured\n- Episodes came back unordered when Season/Episode was combined with another sort\n- Lists sorted by Play Count ordered equally-played items inconsistently\n- A series showed a play count of 0 even when all of its episodes were watched\n- \"Last Played is <date>\" matched nothing unless playback happened exactly at midnight UTC\n- A complex regex rule could tie up a CPU core for an entire refresh\n- Saving the User-Agent setting could overwrite another setting saved at the same moment\n- External lists from Scrob with no items are now handled cleanly",
+        "timestamp": "2026-08-14"
+      },
+      {
         "version": "12.0.0.14",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.14-rc/Jellyfin.Plugin.SmartLists_v12.0.0.14-rc_12.0.0.zip",
