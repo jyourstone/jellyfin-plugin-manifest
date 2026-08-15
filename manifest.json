@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.16",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.16-rc/Jellyfin.Plugin.SmartLists_v12.0.0.16-rc_12.0.0.zip",
+        "checksum": "9CB8BB9D49A30A4ACC11EAF0FC13CB41",
+        "changelog": "Improvements:\n- Rules that check parent tags, studios or genres now look at every level above an item - season, series, album, artist folder, the folders they sit in, and the library itself - instead of stopping at the parent series or album. A tag set on a season or on a whole library now applies to everything inside it.\n- The parent option is no longer limited to episodes and music, so it works for movies and every other media type.\n- Library-level tags, studios and genres are now also found for symlinked and plugin-created libraries.\n\nExisting lists may change:\n- Lists that already had \"also check parent\" enabled will change contents on their first refresh, because more levels now count. Rules that look for a match (equals, contains, is in) will match more items. Rules that exclude (not equals, not contains, is not in) will match fewer.\n- Music lists are the most visible case: values from the artist folder and the library now count alongside the album.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-08-15"
+      },
+      {
+        "version": "12.0.0.16",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.16-rc/Jellyfin.Plugin.SmartLists_v12.0.0.16-rc_10.11.0.zip",
+        "checksum": "304E403C8EF6EE358FE78B88DAFEBF3A",
+        "changelog": "Improvements:\n- Rules that check parent tags, studios or genres now look at every level above an item - season, series, album, artist folder, the folders they sit in, and the library itself - instead of stopping at the parent series or album. A tag set on a season or on a whole library now applies to everything inside it.\n- The parent option is no longer limited to episodes and music, so it works for movies and every other media type.\n- Library-level tags, studios and genres are now also found for symlinked and plugin-created libraries.\n\nExisting lists may change:\n- Lists that already had \"also check parent\" enabled will change contents on their first refresh, because more levels now count. Rules that look for a match (equals, contains, is in) will match more items. Rules that exclude (not equals, not contains, is not in) will match fewer.\n- Music lists are the most visible case: values from the artist folder and the library now count alongside the album.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-08-15"
+      },
+      {
         "version": "12.0.0.15",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.15-rc/Jellyfin.Plugin.SmartLists_v12.0.0.15-rc_12.0.0.zip",
