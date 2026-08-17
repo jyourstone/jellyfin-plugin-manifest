@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.17",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.17-rc/Jellyfin.Plugin.SmartLists_v12.0.0.17-rc_12.0.0.zip",
+        "checksum": "7BA1B28916ECD70DF2D27549C6DE6C83",
+        "changelog": "Features:\n- New \"User Rating\" rule field: filter on the rating a user has given items.\n\nImprovements:\n- Big performance boost for expensive rules. People fields (Director, Actors, Writers, ...), Series Name, Resolution, Audio/Subtitle Languages, Next Unwatched, Last Episode Air Date and parent Tags/Genres/Studios rules now ask the database for matching items up front instead of inspecting every library item one by one. A Director rule that took 20+ minutes on a large library now finishes in seconds (#501).\n- A Framerate rule no longer re-reads media stream data that other rules already loaded during the same refresh.\n\nBug Fixes:\n- Smart collections no longer see themselves when a rule checks Collection name. A collection whose own name matched its rule - easy with the default [Smart] suffix - flipped between full and empty on every refresh (#499).\n- A list is now recognised by identity rather than by name, so a separate collection or playlist that merely shares the name is matched normally, and renaming the Jellyfin list does not break the exclusion.\n- Fixed Collection name and Playlist name rules returning wrong results when several lists were refreshed in one batch: the first list's self-exclusion leaked into the lists refreshed after it.\n- Lists that depend on another smart list's contents no longer lag a refresh behind when several lists refresh together.\n\nExisting lists may change:\n- Collections with a Collection name rule matching their own name will settle on the correct contents instead of alternating. Lists affected by the batch-refresh problem may gain items they were previously missing.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-08-17"
+      },
+      {
+        "version": "12.0.0.17",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.17-rc/Jellyfin.Plugin.SmartLists_v12.0.0.17-rc_10.11.0.zip",
+        "checksum": "6BE42E7777FB88B3A6D1E6CBA3B8F582",
+        "changelog": "Features:\n- New \"User Rating\" rule field: filter on the rating a user has given items.\n\nImprovements:\n- Big performance boost for expensive rules. People fields (Director, Actors, Writers, ...), Series Name, Resolution, Audio/Subtitle Languages, Next Unwatched, Last Episode Air Date and parent Tags/Genres/Studios rules now ask the database for matching items up front instead of inspecting every library item one by one. A Director rule that took 20+ minutes on a large library now finishes in seconds (#501).\n- A Framerate rule no longer re-reads media stream data that other rules already loaded during the same refresh.\n\nBug Fixes:\n- Smart collections no longer see themselves when a rule checks Collection name. A collection whose own name matched its rule - easy with the default [Smart] suffix - flipped between full and empty on every refresh (#499).\n- A list is now recognised by identity rather than by name, so a separate collection or playlist that merely shares the name is matched normally, and renaming the Jellyfin list does not break the exclusion.\n- Fixed Collection name and Playlist name rules returning wrong results when several lists were refreshed in one batch: the first list's self-exclusion leaked into the lists refreshed after it.\n- Lists that depend on another smart list's contents no longer lag a refresh behind when several lists refresh together.\n\nExisting lists may change:\n- Collections with a Collection name rule matching their own name will settle on the correct contents instead of alternating. Lists affected by the batch-refresh problem may gain items they were previously missing.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-08-17"
+      },
+      {
         "version": "12.0.0.16",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.16-rc/Jellyfin.Plugin.SmartLists_v12.0.0.16-rc_12.0.0.zip",
