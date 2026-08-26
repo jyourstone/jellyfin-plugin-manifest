@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartplaylist-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.20",
+        "targetAbi": "12.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.20-rc/Jellyfin.Plugin.SmartLists_v12.0.0.20-rc_12.0.0.zip",
+        "checksum": "A0D1DA273D82C7C13E72B6D0B62A6638",
+        "changelog": "Features:\n- New \"Group results into collections\" option for smart collections. Every matched item that sits in a Jellyfin collection is replaced by that collection, so an item search returns collections instead - \"every collection holding a highly-rated action movie\" rather than the movies themselves. Items that aren't in any collection are kept as they are, and duplicates collapse into a single entry.\n\nBug Fixes:\n- Creating a smart collection with the Collection or Playlist media type from the user configuration page no longer fails with \"media type is not supported for playlists\".\n- Smart collections no longer inherit the server-wide Default Max Playtime. That limit applies to playlists only and its setting is hidden for collections, but it was being applied anyway - so collections were quietly cut short by a limit their form never showed. Existing collections carrying one have it cleared, and converting a playlist to a collection no longer carries it across.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-08-26"
+      },
+      {
+        "version": "12.0.0.20",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.20-rc/Jellyfin.Plugin.SmartLists_v12.0.0.20-rc_10.11.0.zip",
+        "checksum": "245B8FC20201045609B374C162EAB4E0",
+        "changelog": "Features:\n- New \"Group results into collections\" option for smart collections. Every matched item that sits in a Jellyfin collection is replaced by that collection, so an item search returns collections instead - \"every collection holding a highly-rated action movie\" rather than the movies themselves. Items that aren't in any collection are kept as they are, and duplicates collapse into a single entry.\n\nBug Fixes:\n- Creating a smart collection with the Collection or Playlist media type from the user configuration page no longer fails with \"media type is not supported for playlists\".\n- Smart collections no longer inherit the server-wide Default Max Playtime. That limit applies to playlists only and its setting is hidden for collections, but it was being applied anyway - so collections were quietly cut short by a limit their form never showed. Existing collections carrying one have it cleared, and converting a playlist to a collection no longer carries it across.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-08-26"
+      },
+      {
         "version": "12.0.0.19",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.0.19-rc/Jellyfin.Plugin.SmartLists_v12.0.0.19-rc_12.0.0.zip",
