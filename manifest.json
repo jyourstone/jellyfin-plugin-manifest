@@ -2,8 +2,8 @@
   {
     "name": "SmartLists",
     "guid": "A0A2A7B2-747A-4113-8B39-757A9D267C79",
-    "overview": "Smart Playlists and Collections plugin for Jellyfin.",
-    "description": "Create dynamic playlists and collections in Jellyfin based on a set of rules, which will automatically update as your library changes.",
+    "overview": "Smart, self-updating playlists and collections.",
+    "description": "Create smart, rule-based playlists and collections in Jellyfin — for movies, shows, music, or anything your library holds. A single genre rule takes seconds; stack rules into groups and you can express almost anything. Either way, they keep themselves up to date.",
     "category": "General",
     "owner": "jyourstone",
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
