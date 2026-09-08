@@ -6,7 +6,7 @@
     "description": "Create dynamic playlists and collections in Jellyfin based on a set of rules, which will automatically update as your library changes.",
     "category": "General",
     "owner": "jyourstone",
-    "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/master/images/logo.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
         "version": "10.11.30.2",
