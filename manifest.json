@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.3.0",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.3.0/Jellyfin.Plugin.SmartLists_v12.0.3.0_12.0.0.0.zip",
+        "checksum": "3669525EFAA324BB71899BF2FD3E0F62",
+        "changelog": "Features:\n- New rule field: Aspect Ratio (under Video). Filter by a video's display\n  aspect ratio such as 16:9 or 2.35:1. Comparisons are proportional, so\n  \"less than 1:1\" matches every portrait video and \"greater than 1:1\" every\n  landscape one - no need to list each ratio.\n- Live TV Channel media type for smart collections. Group channels from any\n  Live TV tuner into a collection with rules such as Name, Tags or Is\n  Favorite. Collections only - Jellyfin playlists cannot hold channels\n  (#290).\n- \"Hide when empty\" is now \"Min Items\": a list stays hidden until it holds\n  at least that many items, instead of only while it is completely empty.\n  Found under Limits next to Max Items, with a matching default in\n  Settings. Existing lists keep their current behaviour with no changes\n  needed.\n\nBug Fixes:\n- MDBList official list URLs (mdblist.com/lists/official/movies/... and\n  .../shows/...) returned no items. They now load, and the JustWatch\n  Streaming Charts list keeps the country, period, provider and genre\n  filters from the pasted URL (#525).\n\nFull changelog: https://jellyfin-smartlists-plugin.dinsten.se/changelog/stable/",
+        "timestamp": "2026-09-21"
+      },
+      {
         "version": "12.0.2.0",
         "targetAbi": "12.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.2.0/Jellyfin.Plugin.SmartLists_v12.0.2.0_12.0.0.zip",
