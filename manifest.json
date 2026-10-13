@@ -292,6 +292,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-musictags-plugin/master/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.0.0",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v12.0.0.0/Jellyfin.Plugin.MusicTags_v12.0.0.0_12.0.0.0.zip",
+        "checksum": "DFA033B56E1562D7DC5AE5D278AB176E",
+        "changelog": "MusicTags now runs on Jellyfin 12.\n\nFeatures\n- Support for Jellyfin 12. This release requires Jellyfin 12; servers still on Jellyfin 10.11 keep v10.11.3.3 and are not offered this update.",
+        "timestamp": "2026-10-13"
+      },
+      {
         "version": "10.11.3.3",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-musictags-plugin/releases/download/v10.11.3.3/Jellyfin.Plugin.MusicTags_v10.11.3.3.zip",
