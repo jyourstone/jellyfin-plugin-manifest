@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.4.3",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.4.3-rc/Jellyfin.Plugin.SmartLists_v12.0.4.3-rc_12.0.0.0.zip",
+        "checksum": "77E79A8558D82A016CFC977D4FD7D643",
+        "changelog": "Improvements:\n- The Match alternate versions option now only appears when it can change the list: when a rule checks something that can differ between versions of a video, such as Is 3D, Resolution, File Name or audio languages. It is now shown below the rules and stays off by default.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-10-17"
+      },
+      {
         "version": "12.0.4.2",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.4.2-rc/Jellyfin.Plugin.SmartLists_v12.0.4.2-rc_12.0.0.0.zip",
