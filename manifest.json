@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
+        "version": "12.0.4.2",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.4.2-rc/Jellyfin.Plugin.SmartLists_v12.0.4.2-rc_12.0.0.0.zip",
+        "checksum": "12BC59A0D9B373EA2703B7EC9F990738",
+        "changelog": "Features:\n- New Is 3D rule field for videos. Jellyfin detects 3D from tags in the file name, such as [3D MVC] or .3D.hsbs.\n- New Match alternate versions option: rules also check each alternate version of a movie or episode, such as a 3D or 1080p copy behind a 4K version. The video is added when any of its versions matches.\n- The SmartLists menu entry is now hidden from users who can't use the user page (while it's disabled, or when they're not in Allowed Users). Administrators always see it. Requires Plugin Pages 3.0.0.0 or later.\n\nBug Fixes:\n- When an external list can't be fetched (for example the provider is down or there's a network error), lists that use it are now left unchanged for that refresh instead of being emptied.\n- The page shown to users without access to the user page no longer breaks the Jellyfin layout.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-10-17"
+      },
+      {
         "version": "12.0.4.1",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.4.1-rc/Jellyfin.Plugin.SmartLists_v12.0.4.1-rc_12.0.0.0.zip",
