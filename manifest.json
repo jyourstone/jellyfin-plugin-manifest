@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
+        "version": "12.2.0.1",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.2.0.1-rc/Jellyfin.Plugin.SmartLists_v12.2.0.1-rc_12.0.0.0.zip",
+        "checksum": "B18920B6B1D56CA88812C3D0434BE39D",
+        "changelog": "Features:\n- New Season Number, Episode Number, Track Number and Disc Number rule fields, for example to pick specific episodes of a show or the first track of each album. Specials are season 0.\n- Manage lists can now sort by Sort Title (A-Z / Z-A). Lists without a Sort Title sort by their name.\n- Keeping the Jellyfin playlist or collection when you delete a smart list now removes the smart list badge from its covers.\n\nImprovements:\n- Covers made from two images now place them diagonally, so neither image sits directly above its own copy.\n\nBug Fixes:\n- MDBList lists made up of individual episodes no longer refresh as empty. Your episodes need TMDB IDs to match.\n- Deleting a list from the user page while keeping its Jellyfin playlist or collection could still delete it later, during cleanup. The kept list now stays.\n- A playlist kept after deleting its smart list could still carry the smart list name prefix or suffix.\n- Converting a list between playlist and collection no longer loses its uploaded cover images, and the converted list keeps refreshing automatically without a Jellyfin restart.\n- Collection covers no longer show a black square when one of the item images is missing from disk.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-11-08"
+      },
+      {
         "version": "12.0.4.3",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.0.4.3-rc/Jellyfin.Plugin.SmartLists_v12.0.4.3-rc_12.0.0.0.zip",
