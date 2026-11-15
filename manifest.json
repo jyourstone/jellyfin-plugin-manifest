@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
+        "version": "12.3.0.1",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.3.0.1-rc/Jellyfin.Plugin.SmartLists_v12.3.0.1-rc_12.0.0.0.zip",
+        "checksum": "F0CE649758F70B57E5BF674DB146A44A",
+        "changelog": "Features:\n- Least Recently Watched Round Robin can now be given a starting order: a sort added after it decides the order of the shows it leaves tied, most often shows nobody has watched yet. Add Release Date to start with the oldest show, for example. Without a second sort they stay alphabetical.\n\nBug Fixes:\n- Round Robin Descending combined with another sort played the whole list backwards, last episodes first. It now plays the same order with or without additional sorts.\n- Max Items on a rule group, combined with a Similarity sort, kept the first matches found instead of the most similar ones.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-11-15"
+      },
+      {
         "version": "12.2.0.1",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.2.0.1-rc/Jellyfin.Plugin.SmartLists_v12.2.0.1-rc_12.0.0.0.zip",
