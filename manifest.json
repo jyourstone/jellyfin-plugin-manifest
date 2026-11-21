@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/jyourstone/jellyfin-smartlists-plugin/main/images/logo.jpg",
     "versions": [
       {
+        "version": "12.3.0.2",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.3.0.2-rc/Jellyfin.Plugin.SmartLists_v12.3.0.2-rc_12.0.0.0.zip",
+        "checksum": "B0347EECDDC4D60AAF21DF131B594941",
+        "changelog": "Features:\n- Genres rules have a new option for music, \"Only check album genres\". It matches on the album's genres alone, so a track is no longer picked up because of its artist's genres.\n\nBug Fixes:\n- Sorting Manage Lists by Sort Title now gives the same order as Jellyfin's own playlist and collection pages. Lists sharing a Sort Title, names starting with \"The\" and names with numbers were out of place.\n\nFull changelog: https://jellyfin-smartlists-plugin-preview.dinsten.se/changelog/rc/",
+        "timestamp": "2026-11-21"
+      },
+      {
         "version": "12.3.0.1",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.3.0.1-rc/Jellyfin.Plugin.SmartLists_v12.3.0.1-rc_12.0.0.0.zip",
